@@ -1,4 +1,3 @@
-import 'package:bottom_bar/model/executive_model.dart';
 import 'package:bottom_bar/model/model_list.dart';
 import 'package:bottom_bar/shared.dart';
 import 'package:flutter/cupertino.dart';
@@ -12,7 +11,6 @@ class Executives extends StatefulWidget {
 class _ExecutivesState extends State<Executives> {
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       backgroundColor: scaffoldColor,
       body: CustomScrollView(
@@ -22,6 +20,9 @@ class _ExecutivesState extends State<Executives> {
             title: Text('Infotess Elected Executives'),
             floating: false,
             pinned: false,
+            actions: <Widget>[
+              popupMenuButton(context),
+            ],
           ),
          SliverList(
            delegate: SliverChildBuilderDelegate(
@@ -49,7 +50,7 @@ class _ExecutivesState extends State<Executives> {
                            bottomRight: Radius.circular(10)
                        ),
                      child: Padding(
-                       padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
+                       padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
                        child: Row(
                          mainAxisAlignment: MainAxisAlignment.start,
                          children: <Widget>[
@@ -74,6 +75,7 @@ class _ExecutivesState extends State<Executives> {
                                  Text(_execList.portfolio,
                                    style: TextStyle(
                                      fontSize: 14.0,
+                                     letterSpacing: 0.5,
                                    ),
                                  )
                                ],

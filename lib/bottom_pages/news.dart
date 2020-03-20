@@ -19,11 +19,7 @@ class _NewsState extends State<News> {
             backgroundColor: infotessColor,
             title: Text(infotessOnline),
             actions: <Widget>[
-              IconButton(
-                onPressed: (){},
-                icon: Icon(Icons.more_vert),
-                color: Colors.white,
-              )
+             popupMenuButton(context)
             ],
             floating: false,
             pinned: false,

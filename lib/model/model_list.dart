@@ -1,3 +1,4 @@
+import 'package:bottom_bar/model/about_us_model.dart';
 import 'package:bottom_bar/model/constitution_model.dart';
 import 'package:bottom_bar/model/event_model.dart';
 import 'package:bottom_bar/model/executive_model.dart';
@@ -9,47 +10,47 @@ class ModelList {
     ExecutivesModel(
         image: 'assets/images/baffour.jpg',
         name: 'Henry Baffour',
-        portfolio: 'President'),
+        portfolio: 'PRESIDENT'),
     ExecutivesModel(
         image: 'assets/images/bravo.PNG',
         name: 'One Corner',
-        portfolio: 'Vice President'),
+        portfolio: 'VICE PRESIDENT'),
     ExecutivesModel(
         image: 'assets/images/organizer.jpg',
         name: 'George Obiri Yeboah',
-        portfolio: 'General Secretarry'),
+        portfolio: 'GENERAL SECRETARY'),
     ExecutivesModel(
         image: 'assets/images/treasurer.PNG',
         name: 'Phyllis Kyeremaa',
-        portfolio: 'Treasurer'),
+        portfolio: 'TREASURER'),
     ExecutivesModel(
         image: 'assets/images/baffour.jpg',
         name: 'Henry Baffour',
-        portfolio: 'President'),
+        portfolio: 'PRESIDENT'),
     ExecutivesModel(
         image: 'assets/images/bravo.PNG',
         name: 'One Corner',
-        portfolio: 'Vice President'),
+        portfolio: 'VICE PRESIDENT'),
     ExecutivesModel(
         image: 'assets/images/organizer.jpg',
         name: 'George Obiri Yeboah',
-        portfolio: 'General Secretarry'),
+        portfolio: 'GENERAL SECRETARY'),
     ExecutivesModel(
         image: 'assets/images/treasurer.PNG',
         name: 'Phyllis Kyeremaa',
-        portfolio: 'Treasurer'),
+        portfolio: 'TREASURER'),
     ExecutivesModel(
         image: 'assets/images/baffour.jpg',
         name: 'Henry Baffour',
-        portfolio: 'President'),
+        portfolio: 'PRESIDENT'),
     ExecutivesModel(
         image: 'assets/images/bravo.PNG',
         name: 'One Corner',
-        portfolio: 'Vice President'),
+        portfolio: 'VICE PRESIDENT'),
     ExecutivesModel(
         image: 'assets/images/organizer.jpg',
         name: 'George Obiri Yeboah',
-        portfolio: 'General Secretarry'),
+        portfolio: 'GENERAL SECRETARY'),
   ];
 
   static var newsList = [
@@ -227,5 +228,27 @@ class ModelList {
     ConstitutionModel(title: 'Chapter 5', subTitle: 'Articles:6'),
     ConstitutionModel(title: 'Chapter 6', subTitle: 'Articles:2'),
     ConstitutionModel(title: 'Chapter 7', subTitle: 'Articles:1'),
+  ];
+
+
+  static var aboutUsList = [
+    AboutUsModel(
+      image: 'assets/images/logo.png',
+      backgroundInfo: '\nINFOTESS was formed in the year 2005/6\n'
+        'under the leadership of HIS EXCELLENCY\n'
+        'GEORGE, currently a Lecturer in the Ghana\n'
+        'Tele-Com Unversity in Kumasi-Ghana.',
+      visionStatement: '\nInfotess Aim:\n'
+          '\nOur VISION is to make INFOTESS the best\n'
+          'association on campus by helping members\n'
+          'in the pure practical aspect apart\n'
+          'from the normal school curriculum.',
+      missionStatement: '\nWe the students of the Information\n'
+          'Technology Department of the University of\n'
+          'Education, Winneba Kumasi-Campus, guided\n'
+          'by the need to be unified to ensure good\n'
+          'intellectual, spiritual and social advancement\n'
+          'of our members.'
+    )
   ];
 }

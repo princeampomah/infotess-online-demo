@@ -27,25 +27,30 @@ class _HomePageState extends State<HomePage> {
     News(),
     Executives(),
     Resources(),
-    Constitution()
+    Constitution(),
   ];
+
+
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      bottomNavigationBar: CurvedNavigationBar(
-        color: infotessColor,
-        backgroundColor: Colors.white,
-        onTap: onBottomTap,
-        items: <Widget>[
-          Icon(Icons.event, size: 27, color: Colors.white,),
-          Icon(Icons.message, size: 27, color: Colors.white),
-          Icon(Icons.people, size: 27, color: Colors.white),
-          Icon(Icons.cloud_download, size: 27, color: Colors.white),
-          Icon(Icons.library_books, size: 27, color: Colors.white),
-        ],
+    return SafeArea(
+      child: Scaffold(
+        bottomNavigationBar: CurvedNavigationBar(
+          height: 70.0,
+          color: infotessColor,
+          backgroundColor: Colors.white,
+          onTap: onBottomTap,
+          items: <Widget>[
+            Icon(Icons.event, size: 27, color: Colors.white,),
+            Icon(Icons.message, size: 27, color: Colors.white),
+            Icon(Icons.people, size: 27, color: Colors.white),
+            Icon(Icons.cloud_download, size: 27, color: Colors.white),
+            Icon(Icons.library_books, size: 27, color: Colors.white),
+          ],
+        ),
+        body: _children[_showPage]
       ),
-      body: _children[_showPage],
     );
   }
 }

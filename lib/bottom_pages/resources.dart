@@ -16,11 +16,7 @@ class _ResourcesState extends State<Resources> {
             backgroundColor: infotessColor,
             title: Text(infotessOnline),
             actions: <Widget>[
-              IconButton(
-                onPressed: (){},
-                icon: Icon(Icons.more_vert),
-                color: Colors.white,
-              )
+              popupMenuButton(context)
             ],
             floating: false,
             pinned: false,
@@ -70,7 +66,6 @@ class _ResourcesState extends State<Resources> {
                       ),
                     ),
                   );
-
                 },
               childCount: 1,
             ),
