@@ -54,7 +54,8 @@ class _ResourcesState extends State<Resources> {
                                       icon: Icon(Icons.folder_open, color: infotessColor,),
                                     ),
                                     IconButton(
-                                      onPressed: (){},
+                                      onPressed: (){
+                                      },
                                       icon: Icon(Icons.file_download, color: infotessColor,),
                                     ),
                                   ],

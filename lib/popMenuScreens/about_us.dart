@@ -73,8 +73,9 @@ class _AboutUsState extends State<AboutUs> {
                             style: TextStyle(
                               color: newsListColor,
                               letterSpacing: 0.3,
-                            ),)
-
+                            ),
+                            ),
+                           
                           ],
                         ),
                       ),

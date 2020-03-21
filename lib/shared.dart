@@ -1,6 +1,7 @@
 import 'package:bottom_bar/popMenuScreens/about_us.dart';
-import 'package:bottom_bar/popMenuScreens/privacy_policy.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 var infotessColor = Color.fromRGBO(44, 21, 82, 1);
 var scaffoldColor = Colors.grey[200];
@@ -15,6 +16,30 @@ String motto2 = 'Essential Tool For Development!!!';
 
 String aboutUs = 'about_us';
 String privacyPolicy = 'privacy_policy';
+
+
+_launchPolicyPrivacy(BuildContext context) async{
+  String url = 'https://infotess.org';
+  if(await canLaunch(url)){
+    await launch(url);
+  }
+  else{
+    Scaffold.of(context).showSnackBar(
+        SnackBar(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(20),
+              topRight: Radius.circular(20),
+              bottomLeft: Radius.circular(20),
+              bottomRight: Radius.circular(20)
+            )
+          ),
+          backgroundColor: infotessColor,
+          content: Text(throw 'Could not Launch! $url'),
+    ));
+  }
+}
+
 
 Widget popupMenuButton(BuildContext context){
   return PopupMenuButton(
@@ -52,9 +77,7 @@ Widget popupMenuButton(BuildContext context){
         ));
       }
       else{
-        Navigator.push(context, MaterialPageRoute(
-          builder: (context)=>PrivacyPolicy()
-        ));
+          _launchPolicyPrivacy(context);
       }
     },
   );

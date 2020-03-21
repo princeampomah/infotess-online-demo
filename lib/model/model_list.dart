@@ -56,16 +56,36 @@ class ModelList {
   static var newsList = [
     NewsModel(
         newsTitle: 'URGENT NOTICE TO ALL STUDENTS',
-        newsContent: 'There’s always a first time\n'
-            'You have to crawl first, attempt standing, fall\n'
-            'A good number of times\n'
-            'And finally! You can walk!\n'
-            '‘Good lawyers ae not born. Good lawyers are made’.\n'
-            'Echoed the words of the learned Brobbey J.S.C. (as he then was)\n'
-            'Upon hearing this, I began to wonder\n'
-            '‘Where was my training field?’\n'
-            'Of course, I knew how it all began'
-            'On the screens, we saw the dream flashing at us consistently\n',
+        newsContent: '\nSTUDENTS\' REPRESENTATIVE COUNCIL\n'
+            '\nUNIVERSITY OF EDUCATION, WINNEBA-KUMASI\n'
+            '\n🗓Date: Monday, 16th March, 2020.\n'
+            'Our Ref, UEW-K/ SRC/059\n'
+            '\nFROM: OFFICE OF THE PUBLIC RELATIONS\n'
+            '\nTO: ENTIRE STUDENT BODY\n'
+            '\nSUBJECT: UPDATE\n'
+            '\nImmediate release.\n'
+            '\nAll students are to note that Management has reviewed its earlier decision to allow students to stay at the hall of residence. \n'
+            '\n \n'
+            '\nHenceforth, all students must vaccate their hall of residence. Hall Presidents\n'
+            'must ensure all students leave the premises of the University by\n'
+            '12pm on Tuesday, 17th March, 2020.\n'
+            '\n \n'
+            '\nAll facilities are hence closed to students. No student is allowed to stay at the hall.\n'
+            'Students who are seen in and around the University do so at their own risk. Management takes strong exceptions to staying at the hall.\n'
+            '\n \n'
+            '\nStudents are advised to stay at home until they are called to come to school.\n'
+            '\nWe wish all students well.\n'
+            '\n \n'
+            '\nThank you\n'
+            '\n \n'
+            '\nSigned by:\n'
+            'ISAAC OSEI BUABENG\n'
+            '[SRC Secretary]\n'
+            '\n \n'
+            '\nISSUED BY\n'
+            'ISAAC NYAMEAH\n'
+            '(SRC PRO.)\n'
+            '\n#Please Share\n',
         newsTime: '4 days ago',
         newsType: 'General News'),
     NewsModel(
@@ -97,7 +117,7 @@ class ModelList {
         newsTime: 'February 20, 2020',
         newsType: 'General News'),
     NewsModel(
-        newsTitle: 'Notice',
+        newsTitle: 'Notice!!!',
         newsContent: 'There’s always a first time'
             'You have to crawl first, attempt standing, fall '
             'A good number of times '
@@ -112,20 +132,40 @@ class ModelList {
         newsType: 'Sports'),
     NewsModel(
         newsTitle: 'Announcement! Announcement!! Announcement!!!',
-        newsContent: 'There’s always a first time\n'
-            'You have to crawl first, attempt standing, fall\n'
-            'A good number of times\n'
-            'And finally! You can walk!\n'
-            '‘Good lawyers ae not born. Good lawyers are made’.\n'
-            'Echoed the words of the learned Brobbey J.S.C. (as he then was)\n'
-            'Upon hearing this, I began to wonder\n'
-            '‘Where was my training field?’\n'
-            'Of course, I knew how it all began'
-            'On the screens, we saw the dream flashing at us consistently\n',
+        newsContent: '\nSTUDENTS\' REPRESENTATIVE COUNCIL\n'
+            '\nUNIVERSITY OF EDUCATION, WINNEBA-KUMASI\n'
+            '\n🗓Date: Monday, 16th March, 2020.\n'
+            'Our Ref, UEW-K/ SRC/059\n'
+            '\nFROM: OFFICE OF THE PUBLIC RELATIONS\n'
+            '\nTO: ENTIRE STUDENT BODY\n'
+            '\nSUBJECT: UPDATE\n'
+            '\nImmediate release.\n'
+            '\nAll students are to note that Management has reviewed its earlier decision to allow students to stay at the hall of residence. \n'
+            '\n \n'
+            '\nHenceforth, all students must vaccate their hall of residence. Hall Presidents\n'
+            'must ensure all students leave the premises of the University by\n'
+            '12pm on Tuesday, 17th March, 2020.\n'
+            '\n \n'
+            '\nAll facilities are hence closed to students. No student is allowed to stay at the hall.\n'
+            'Students who are seen in and around the University do so at their own risk. Management takes strong exceptions to staying at the hall.\n'
+            '\n \n'
+            '\nStudents are advised to stay at home until they are called to come to school.\n'
+            '\nWe wish all students well.\n'
+            '\n \n'
+            '\nThank you\n'
+            '\n \n'
+            '\nSigned by:\n'
+            'ISAAC OSEI BUABENG\n'
+            '[SRC Secretary]\n'
+            '\n \n'
+            '\nISSUED BY\n'
+            'ISAAC NYAMEAH\n'
+            '(SRC PRO.)\n'
+            '\n#Please Share\n',
         newsTime: '4 days ago',
         newsType: 'September 26, 2019'),
     NewsModel(
-        newsTitle: 'Notice',
+        newsTitle: 'Notice!!!',
         newsContent: 'There’s always a first time'
             'You have to crawl first, attempt standing, fall '
             'A good number of times '

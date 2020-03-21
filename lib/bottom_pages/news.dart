@@ -1,5 +1,6 @@
 import 'package:bottom_bar/model/model_list.dart';
 import 'package:bottom_bar/shared.dart';
+import 'package:bottom_bar/show_pages/news_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -40,7 +41,11 @@ class _NewsState extends State<News> {
                     ),
                     child: InkWell(
                       splashColor: inkWellColor,
-                      onTap: (){},
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(
+                          builder: (context)=>NewsScreen(newsModel: _newsList,)
+                        ));
+                      },
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(10),
                           topRight: Radius.circular(10),
@@ -55,9 +60,13 @@ class _NewsState extends State<News> {
                             Text(_newsList.newsTitle,
                             style: TextStyle(
                               color: infotessColor,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 17.0
                             ),
                             ),
-                            Divider(color: Colors.red,),
+                            Divider(color: Colors.red,
+                            thickness: 1.0,
+                            ),
                             Text(_newsList.newsContent,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.justify,
